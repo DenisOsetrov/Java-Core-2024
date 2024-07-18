@@ -1,4 +1,4 @@
-package homeworks.homework_2.Papyrus_Book_Magazine_Comics;
+package homeworks.homework_2_extends_class.Papyrus_Book_Magazine_Comics;
 
 
 import lombok.*;

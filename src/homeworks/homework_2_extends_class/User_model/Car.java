@@ -1,4 +1,4 @@
-package homeworks.homework_2.User_model;
+package homeworks.homework_2_extends_class.User_model;
 
 
 import lombok.AllArgsConstructor;

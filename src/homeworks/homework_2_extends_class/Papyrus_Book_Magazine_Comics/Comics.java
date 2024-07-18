@@ -1,4 +1,4 @@
-package homeworks.homework_2.Papyrus_Book_Magazine_Comics;
+package homeworks.homework_2_extends_class.Papyrus_Book_Magazine_Comics;
 
 
 import lombok.*;
@@ -9,6 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString(includeFieldNames = true, callSuper = true)
 @EqualsAndHashCode(callSuper = true)
+
 public class Comics extends Book {
     private String heroes;
     private int season;

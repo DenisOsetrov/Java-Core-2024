@@ -1,19 +1,19 @@
-package homeworks.homework_2;
+package homeworks.homework_2_extends_class;
 
-import homeworks.homework_2.Additional.Comment;
-import homeworks.homework_2.Additional.Post;
-import homeworks.homework_2.PC_Laptop_Ultrabook_Workstation.Laptop;
-import homeworks.homework_2.PC_Laptop_Ultrabook_Workstation.PC;
-import homeworks.homework_2.PC_Laptop_Ultrabook_Workstation.Ultrabook;
-import homeworks.homework_2.PC_Laptop_Ultrabook_Workstation.Workstation;
-import homeworks.homework_2.Papyrus_Book_Magazine_Comics.Book;
-import homeworks.homework_2.Papyrus_Book_Magazine_Comics.Comics;
-import homeworks.homework_2.Papyrus_Book_Magazine_Comics.Magazine;
-import homeworks.homework_2.Papyrus_Book_Magazine_Comics.Papyrus;
-import homeworks.homework_2.User_model.Car;
-import homeworks.homework_2.User_model.Gender;
-import homeworks.homework_2.User_model.Skill;
-import homeworks.homework_2.User_model.User;
+import homeworks.homework_2_extends_class.Additional.Comment;
+import homeworks.homework_2_extends_class.Additional.Post;
+import homeworks.homework_2_extends_class.PC_Laptop_Ultrabook_Workstation.Laptop;
+import homeworks.homework_2_extends_class.PC_Laptop_Ultrabook_Workstation.PC;
+import homeworks.homework_2_extends_class.PC_Laptop_Ultrabook_Workstation.Ultrabook;
+import homeworks.homework_2_extends_class.PC_Laptop_Ultrabook_Workstation.Workstation;
+import homeworks.homework_2_extends_class.Papyrus_Book_Magazine_Comics.Book;
+import homeworks.homework_2_extends_class.Papyrus_Book_Magazine_Comics.Comics;
+import homeworks.homework_2_extends_class.Papyrus_Book_Magazine_Comics.Magazine;
+import homeworks.homework_2_extends_class.Papyrus_Book_Magazine_Comics.Papyrus;
+import homeworks.homework_2_extends_class.User_model.Car;
+import homeworks.homework_2_extends_class.User_model.Gender;
+import homeworks.homework_2_extends_class.User_model.Skill;
+import homeworks.homework_2_extends_class.User_model.User;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

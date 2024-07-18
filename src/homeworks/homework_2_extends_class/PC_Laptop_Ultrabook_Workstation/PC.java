@@ -1,4 +1,4 @@
-package homeworks.homework_2.PC_Laptop_Ultrabook_Workstation;
+package homeworks.homework_2_extends_class.PC_Laptop_Ultrabook_Workstation;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
