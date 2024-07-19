@@ -21,13 +21,15 @@ public class Main {
 
         // Сортуємо за алфавітом у зворотному порядку за допомогою Collections.sort() та Comparator.reverseOrder()
         Collections.sort(words, Comparator.reverseOrder());
-        System.out.println("Відсортований список (спадання): " + words);
+        System.out.println(STR."Відсортований список (спадання): \{words}");
 
 
 
         // Сортуємо ArrayList за алфавітом
         words.sort((a, b) -> a.compareTo(b));
-//        words.sort(Comparator.naturalOrder()); // від а - я!
+        // або
+        // words.sort(String::compareTo);
+        // words.sort(Comparator.naturalOrder()); // від а - я
         System.out.println("Відсортований список №2: " + words);
 
         // Сортування за алфавітом у зворотному порядку за допомогою List.sort() та Comparator.reverseOrder()
