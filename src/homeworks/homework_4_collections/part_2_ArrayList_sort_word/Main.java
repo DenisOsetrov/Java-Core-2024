@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // незмінний список Arrays.asList
+
         List<String> words = Arrays.asList("apple", "orange", "banana", "grape", "pineapple",
                 "mango", "kiwi", "strawberry", "blueberry", "raspberry",
                 "blackberry", "watermelon", "melon", "peach", "cherry",
@@ -20,15 +20,17 @@ public class Main {
         System.out.println("Відсортований список за алфавітом: " + words);
 
         // Сортуємо за алфавітом у зворотному порядку за допомогою Collections.sort() та Comparator.reverseOrder()
-        Collections.sort(words, Comparator.reverseOrder());
-        System.out.println(STR."Відсортований список (спадання): \{words}");
+        // Collections.sort(words, Comparator.reverseOrder());
+        words.sort(Comparator.reverseOrder());
+        System.out.println("Відсортований список (спадання): " + words);
 
 
 
         // Сортуємо ArrayList за алфавітом
-        words.sort((a, b) -> a.compareTo(b));
+        words.sort(String::compareTo);
+        //  words.sort((a, b) -> a.compareTo(b));
+        
         // або
-        // words.sort(String::compareTo);
         // words.sort(Comparator.naturalOrder()); // від а - я
         System.out.println("Відсортований список №2: " + words);
 

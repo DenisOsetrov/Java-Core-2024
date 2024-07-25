@@ -1,5 +1,6 @@
 package homeworks.homework_3_implements_interface.part_2_Instrument;
 
+
 public class Guitar implements Instrument{
     private final int numberOfStrings;
 
@@ -11,10 +12,10 @@ public class Guitar implements Instrument{
     // конструктор методу
     @Override
     public void play() {
-        System.out.println(STR."Грає гітара з кількістю струн: \{numberOfStrings} шт.!");
+        System.out.println("Грає гітара з кількістю струн: " + numberOfStrings + " шт.!");
     }
 
-    // або:
+            // або:
 //    public void play() {
         // System.out.println(STR."\{this.getClass().getSimpleName()} play with \{this.toString()}");
         // this.getClass().getSimpleName() повертає просте ім'я класу.

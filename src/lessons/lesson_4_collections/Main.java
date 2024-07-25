@@ -1,4 +1,4 @@
-package lessons.lesson_4;
+package lessons.lesson_4_collections;
 
 import java.util.ArrayList;
 import java.util.Collection;

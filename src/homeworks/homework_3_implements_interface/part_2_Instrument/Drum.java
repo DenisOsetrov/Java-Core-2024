@@ -2,6 +2,7 @@ package homeworks.homework_3_implements_interface.part_2_Instrument;
 
 import java.math.BigDecimal;
 
+
 // Метод play() всередині класу має доступ до приватних полів цього класу і може використовувати їх безпосередньо.
 //Коли ми створюємо екземпляри класів Guitar, Drum, Trumpet і викликаємо метод play(), цей метод вже знає,
 // як виводити інформацію про об'єкт, використовуючи значення його полів.
@@ -19,6 +20,6 @@ public class Drum implements Instrument {
     // Конструктор методу і його реалізація
     @Override
     public void play() {
-        System.out.println(STR."Грає барабан з розміром: \{size} сантиметрів!");
+        System.out.println("Грає барабан з розміром: " + size + " сантиметрів!");
     }
 }

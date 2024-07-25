@@ -40,7 +40,7 @@ public class Main {
         // Якщо колекція незмінна (immutable), а не динамічна, то можна використати: Arrays.asList чи List.of
 
         // List<User> users = Arrays.asList(new User(5, "John", "Doe", 25, "john.doe@example.com")), new User());
-        // або
+               // або
         // List<User> users = List.of(new User(5, "John", "Doe", 25, "john.doe@example.com")), new User());
 
         // Arrays.asList та List.of дозволяють створити списки з попередньо визначеними елементами, але вони будуть незмінні.
